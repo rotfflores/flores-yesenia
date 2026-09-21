@@ -6,7 +6,7 @@ const FLOWERS_CONFIG = {
   relationshipStart: "2025-06-21",
   photoStripBack: "No importa cuántas fotos tengamos; siempre voy a querer guardar un momento más contigo.",
   dedication: "Esta canción me hace pensar en ti.",
-  gardenMessage: "Estas flores son apenas un reflejo de toda la alegría que traes a mi vida. Gracias por hacer florecer mis días con tu presencia.",
+  gardenMessage: "",
   whatsappNumber: "525574483856", // Código de país + número, sin espacios. Ejemplo: 5215512345678
   gifts: [
     { title: "🌿 Un paseo por la naturaleza: Desierto de los Leones o algún lugar bonito que descubramos juntas.", description: "Tú eliges el día, yo preparo todo.", whatsapp: "Hola, vengo a canjear mi cupón por Un paseo por la naturaleza: Desierto de los Leones o algún lugar bonito que descubramos juntas. 🌻💛" },
@@ -27,13 +27,13 @@ const FLOWERS_CONFIG = {
     "Café ☕", "Lluvia 🌧️", "Magia ✨", "Complicidad", "Tú y yo 💛",
   ],
   photos: [
-    { src: "assets/photos/pareja-1.jpeg", text: "7 de junio 26: coincidimos. 23 de junio: nuestra primera cita. Y desde entonces, muchos momentos que hoy ya son parte de nuestra historia. ✨ Gracias por estar en ella. 💛🌻", alt: "compartiendo un momento juntos" },
+    { src: "assets/photos/pareja-1.jpeg", text: "Donde las risas vuelven a nuestro lugar favorito.", alt: "compartiendo un momento juntos" },
     { src: "assets/photos/pareja-2.jpeg", text: "Uno de esos instantes que quisiera guardar para siempre.", alt: "Posando juntos" },
-    { src: "assets/photos/pareja-3.jpeg", text: "7 de junio 26: coincidimos. 23 de junio: nuestra primera cita. Y desde entonces, muchos momentos que hoy ya son parte de nuestra historia. ✨ Gracias por estar en ella. 💛🌻", alt: "" },
-    { src: "assets/photos/pareja-4.jpeg", text: "7 de junio 26: coincidimos. 23 de junio: nuestra primera cita. Y desde entonces, muchos momentos que hoy ya son parte de nuestra historia. ✨ Gracias por estar en ella. 💛🌻", alt: "Por siempre" },
-    { src: "assets/photos/pareja-5.jpeg", text: "7 de junio 26: coincidimos. 23 de junio: nuestra primera cita. Y desde entonces, muchos momentos que hoy ya son parte de nuestra historia. ✨ Gracias por estar en ella. 💛🌻", alt: "Besos por siempre" },
-    { src: "assets/photos/pareja-6.jpeg", text: "7 de junio 26: coincidimos. 23 de junio: nuestra primera cita. Y desde entonces, muchos momentos que hoy ya son parte de nuestra historia. ✨ Gracias por estar en ella. 💛🌻", alt: "Posando juntos" },
-    { src: "assets/photos/pareja-7.jpeg", text: "7 de junio 26: coincidimos. 23 de junio: nuestra primera cita. Y desde entonces, muchos momentos que hoy ya son parte de nuestra historia. ✨ Gracias por estar en ella. 💛🌻", alt: "Paseando juntos en un jardín" },
+    { src: "assets/photos/pareja-3.jpeg", text: "Contigo, hasta el mundo parece detenerse.", alt: "" },
+    { src: "assets/photos/pareja-4.jpeg", text: "Y todavia nos quedan muchos caminos por recorrer.", alt: "Por siempre" },
+    { src: "assets/photos/pareja-5.jpeg", text: "Siempre estarás en mi corazón.", alt: "Besos por siempre" },
+    { src: "assets/photos/pareja-6.jpeg", text: "Contigo, el tiempo se detiene.", alt: "Posando juntos" },
+    { src: "assets/photos/pareja-7.jpeg", text: "Un momento perfecto en tu mundo.", alt: "Paseando juntos en un jardín" },
     { src: "assets/photos/pareja-8.jpeg", text: "7 de junio 26: coincidimos. 23 de junio: nuestra primera cita. Y desde entonces, muchos momentos que hoy ya son parte de nuestra historia. ✨ Gracias por estar en ella. 💛🌻", alt: "Compartiendo un momento juntos por la noche" },
     { src: "assets/photos/pareja-9.png", text: "7 de junio 26: coincidimos. 23 de junio: nuestra primera cita. Y desde entonces, muchos momentos que hoy ya son parte de nuestra historia. ✨ Gracias por estar en ella. 💛🌻", alt: "Posando juntos" }
     // Sustituye estas rutas por las fotografías del pedido cuando las recibas.

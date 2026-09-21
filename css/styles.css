@@ -1883,9 +1883,8 @@ body:has(.days-together.is-active) .music-control { opacity: 0; pointer-events: 
 .scratch-ticket.is-complete .scratch-ticket__message p { opacity: 1; transform: scale(1); text-shadow: 0 0 18px rgba(229,169,25,.42); }
 .scratch-ticket__flower { position: absolute; z-index: 3; color: #d99a0b; }
 .scratch-ticket__flower svg { display: block; width: 100%; height: 100%; }
-.scratch-ticket__flower--one { top: 25px; left: 27px; color: #e1a50d; }
-.scratch-ticket__flower--one { width: 22px; height: 22px; }
-.scratch-ticket__flower--two { top: 18px; right: 24px; width: 29px; height: 29px; }
+.scratch-ticket__flower--one { top: 22px; left: 24px; width: 30px; height: 30px; color: #e1a50d; }
+.scratch-ticket__flower--two { top: 16px; right: 20px; width: 42px; height: 42px; }
 .scratch-instruction { position: absolute; z-index: 6; left: 50%; bottom: 17px; margin: 0; color: rgba(89,55,7,.82); font-size: .57rem; font-weight: 800; letter-spacing: .04em; white-space: nowrap; transform: translateX(-50%); transition: opacity .35s, transform .35s; pointer-events: none; }
 .scratch-ticket.is-scratching .scratch-instruction, .scratch-ticket.is-complete .scratch-instruction { opacity: 0; transform: translate(-50%,5px); }
 .scratch-prize-seal { position: absolute; right: 8px; bottom: 7px; padding: 6px 9px; border: 2px solid #a9720b; border-radius: 50%; color: #8f5f08; font: 800 .48rem/1 monospace; letter-spacing: .05em; text-transform: uppercase; opacity: 0; transform: rotate(-11deg) scale(1.7); transition: opacity .6s .4s, transform .7s .35s cubic-bezier(.18,.8,.2,1); }

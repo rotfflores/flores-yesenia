@@ -1030,11 +1030,7 @@
   function animateDaysTogether() {
     if (!daysCount) return;
     cancelAnimationFrame(daysAnimation);
-    const startParts = [2026, 5, 7];
-    const now = new Date();
-    const startUtc = Date.UTC(startParts[0], startParts[1], startParts[2]);
-    const todayUtc = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate());
-    const totalDays = Math.max(0, Math.floor((todayUtc - startUtc) / 86400000));
+    const totalDays = 106;
     daysCount.setAttribute("aria-label", `${totalDays} días juntos`);
     if (daysStat) daysStat.textContent = totalDays.toLocaleString("es-MX");
     if (reducedMotion) {
